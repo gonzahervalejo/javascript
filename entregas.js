@@ -25,32 +25,67 @@
 
 // clase 3
 
-let adivinar = prompt("Dentro de la casa enta Ana, juan y marcos. Adivina quien es la persona que falta sabiendo que el nombre arranca con la letra G");
+// let adivinar = prompt("Dentro de la casa enta Ana, juan y marcos. Adivina quien es la persona que falta sabiendo que el nombre arranca con la letra G");
 
-while (adivinar != "ESC" ) {
-   switch (adivinar) {
+// while (adivinar != "ESC" ) {
+//    switch (adivinar) {
 
-      case "german":
-         alert ("Casi! Pero no es!");
+//       case "german":
+//          alert ("Casi! Pero no es!");
 
+//          break;
+
+//       case "gabriel":
+//       alert ("Ese no! Otra vez");
+      
+//       break;
+
+//       case "gonzalo":
+//          alert("Correcto! Acertaste!");
+
+//          break;
+
+//          default:
+//             alert ("No lo lograste");
+
+//             break;
+
+//    }
+
+//    adivinar = prompt ("Dentro de la casa enta Ana, juan y marcos. Adivina quien es la persona que falta sabiendo que el nombre arranca con la letra G");
+// }
+
+
+// clase 4
+
+
+function calculadora(a, b, operacion){
+
+   switch (operacion) {
+
+      case "+":
+         return a + b;
          break;
 
-      case "gabriel":
-      alert ("Ese no! Otra vez");
+      case "-":
+         return a - b;
+          break;
+          
+      case "*":
+      return a * b;
+      break;
       
+      case "/": 
+      return a / b;
       break;
 
-      case "gonzalo":
-         alert("Correcto! Acertaste!");
-
-         break;
-
-         default:
-            alert ("No lo lograste");
-
-            break;
-
+      default:
+      return 0;
+      break;
    }
-
-   adivinar = prompt ("Dentro de la casa enta Ana, juan y marcos. Adivina quien es la persona que falta sabiendo que el nombre arranca con la letra G");
 }
+
+let calcular = calculadora (5, 10, "+");
+console.log(calcular);
+
+   
