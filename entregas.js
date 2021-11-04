@@ -59,33 +59,71 @@
 // clase 4
 
 
-function calculadora(a, b, operacion){
+// function calculadora(a, b, operacion){
 
-   switch (operacion) {
+//    switch (operacion) {
 
-      case "+":
-         return a + b;
-         break;
+//       case "+":
+//          return a + b;
+//          break;
 
-      case "-":
-         return a - b;
-          break;
+//       case "-":
+//          return a - b;
+//           break;
           
-      case "*":
-      return a * b;
-      break;
+//       case "*":
+//       return a * b;
+//       break;
       
-      case "/": 
-      return a / b;
-      break;
+//       case "/": 
+//       return a / b;
+//       break;
 
-      default:
-      return 0;
-      break;
+//       default:
+//       return 0;
+//       break;
+//    }
+// }
+
+// let calcular = calculadora (5, 10, "+");
+// console.log(calcular);
+
+
+// clase 5 objetos
+
+
+// function Persona (n, e, c) {
+
+//    this.nombre = n;
+//    this.edad = e;
+//    this.calle = c;
+//    this.presentarse = function () {
+
+//       console.log("Hola soy " + this.nombre);
+//    };
+// }
+//    const persona1 = new Persona ("Homero", 39, "tucuman 2366");
+
+//    persona1.presentarse();
+
+   class libro {
+      constructor (n, p,) {
+         this.nombre = n;
+         this.precio = p;
+         
+      }
    }
-}
 
-let calcular = calculadora (5, 10, "+");
-console.log(calcular);
+   const estante = parseInt(prompt("ingresar estante del libro"));
+
+     const libro1 = new libro ( "Harry Potter", 2500, estante );
+
+    console.log(libro1);
+
+
+
+   
+
+
 
    
