@@ -106,20 +106,50 @@
 
 //    persona1.presentarse();
 
-   class libro {
-      constructor (n, p,) {
-         this.nombre = n;
-         this.precio = p;
+   // class libro {
+   //    constructor (n, p,) {
+   //       this.nombre = n;
+   //       this.precio = p;
          
-      }
-   }
+   //    }
+   // }
 
-   const estante = parseInt(prompt("ingresar estante del libro"));
+   // const estante = parseInt(prompt("ingresar estante del libro"));
 
-     const libro1 = new libro ( "Harry Potter", 2500, estante );
+   //   const libro1 = new libro ( "Harry Potter", 2500, estante );
 
-    console.log(libro1);
+   //  console.log(libro1);
 
+   // clase 4 nuevamente
+
+
+   let canapino = 250;
+   let werner = 230;
+   let acelera = 50;
+
+   function Carrera(werner, canapino, acelera) {
+
+if (canapino < werner) {
+    console.log("Va mas rapido werner");
+}
+else {
+    console.log("Canapino va mas rapido");
+}
+
+
+if (werner < canapino )  {
+    console.log("werner va a " + (werner + acelera));
+}
+else if (werner < canapino){
+    console.log(canapino + acelera);
+}
+else {
+    console.log("error");
+
+}
+}
+
+console.log(Carrera);
 
 
    
