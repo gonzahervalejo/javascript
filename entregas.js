@@ -123,37 +123,74 @@
    // clase 4 nuevamente
 
 
-   let canapino = 250;
-   let werner = 230;
-   let acelera = 50;
+//    let canapino = 250;
+//    let werner = 230;
+//    let acelera = 50;
 
-   function Carrera(werner, canapino, acelera) {
+//    function Carrera(werner, canapino, acelera) {
 
-if (canapino < werner) {
-    console.log("Va mas rapido werner");
-}
-else {
-    console.log("Canapino va mas rapido");
-}
-
-
-if (werner < canapino )  {
-    console.log("werner va a " + (werner + acelera));
-}
-else if (werner < canapino){
-    console.log(canapino + acelera);
-}
-else {
-    console.log("error");
-
-}
-}
-
-console.log(Carrera);
+// if (canapino < werner) {
+//     console.log("Va mas rapido werner");
+// }
+// else {
+//     console.log("Canapino va mas rapido");
+// }
 
 
-   
+// if (werner < canapino )  {
+//     console.log("werner va a " + (werner + acelera));
+// }
+// else if (werner < canapino){
+//     console.log(canapino + acelera);
+// }
+// else {
+//     console.log("error");
+
+// }
+// }
+
+// console.log(Carrera);
+
+
+//    clase 6 arrays 
 
 
 
-   
+// const caca = [];
+// console.log(typeof caca);
+
+// const mama = ["ferman ", "gonzalo", "Matias", "franco", caca];
+
+// console.log (mama);
+// console.log(typeof mama);
+
+
+   // EJemplo piola 
+
+// const listaNombres  = [];
+
+// let cantidad = 5;
+
+// do {
+
+//    let entrada = prompt ("Ingresar nombre");
+//    listaNombres.push(entrada.toUpperCase());
+//    console.log(listaNombres.length);
+// } while(listaNombres.length != cantidad);
+
+
+// const nuevaLista = listaNombres.concat (["ANA", "EMA"]);
+
+// alert (nuevaLista.join("\n"));
+
+
+
+// array ojetos 
+
+
+const objeto1 = { id: 1, producto: "arroz", precio:250};
+const array = [objeto1, {id: 2, producto: "zanahorias", precio: 100}];
+array.push({id: 3, producto: "manzana", precio:250});
+
+console.table(objeto1);
+console.table(array);
